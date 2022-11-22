@@ -1,9 +1,17 @@
 <template>
-  <h1>Clean the Vue app</h1>
+<Header/>
 </template>
 
-<style lang="scss">
-  h1 {
-    text-align: center;
+<script>
+import Header from "@/components/Header";
+
+export default {
+  components: {
+    Header
   }
+}
+
+</script>
+
+<style lang="scss">
 </style>

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Colors */
+:root {
+    --main: #FFFFFF;
+    --main__second: #000000;
+}
+
+/* Background Colors */
+:root {
+    --gold: linear-gradient(90deg, #FFB800 0%, #FFBAC3 70.62%);
+    --block__bg: linear-gradient(249.9deg, rgba(255, 255, 255, 0) -24.77%, rgba(255, 255, 255, 0.15) 105.99%);
+    backdrop-filter: blur(16.9248px);
+    --block__bg-active: #C4C4C4;
+    --block__bg-card: linear-gradient(249.9deg, rgba(255, 255, 255, 0.039) -24.77%, rgba(255, 255, 255, 0.3) 105.99%);
+    backdrop-filter: blur(118px);
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('../../assets/fonts/TTOctosquares/TTOctosquares-Medium.eot');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTOctosquares';
+    src: url('../../assets/fonts/TTOctosquares/TTOctosquares-Regular.eot');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('../../assets/fonts/Neue-Machina/NeueMachina-Bold.eot');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mazzard-Bold';
+    src: url('../../assets/fonts/Mazzard/MazzardH-Bold.eot');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Mazzard';
+    src: url('../../assets/fonts/Mazzard/MazzardH-Regular.eot');
+    font-weight: 400;
+}
